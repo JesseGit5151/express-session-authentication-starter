@@ -5,8 +5,8 @@ const connection = require('./database');
 const User = connection.models.User;
 
 const customFields = {
-    usernameField: 'uname',
-    passwordField: 'pw'
+    usernameField: 'username',
+    passwordField: 'password'
 }
 
 //Passport setup
